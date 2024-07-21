@@ -1,0 +1,9 @@
+<!-- templates/myapp/welcome.html -->
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+<h2>Welcome, {{ user.username }}!</h2>
+<p>You are now logged in.</p>
+{% endblock %}
